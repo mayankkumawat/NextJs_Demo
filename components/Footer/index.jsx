@@ -1,53 +1,53 @@
 /* eslint-disable react/jsx-key */
-import Image from "next/image";
-import React from "react";
-import { Facebook, Instgram, Logo, YouTube } from "../../assets";
+import Image from 'next/image';
+import React from 'react';
+import { Facebook, Instgram, Logo, YouTube } from '../../assets';
 
 const FooterData = [
   {
-    name: "About",
+    name: 'About',
     subtittle: [
-      " About Us",
-      "Meet the Staff",
-      "Meet our Founders",
-      "Board of Directors",
-      "Newsroom",
-      "Testimonials",
-      "Blog",
+      ' About Us',
+      'Meet the Staff',
+      'Meet our Founders',
+      'Board of Directors',
+      'Newsroom',
+      'Testimonials',
+      'Blog',
     ],
   },
   {
-    name: "Education",
+    name: 'Education',
     subtittle: [
-      "Literature",
-      "Podcast",
-      "Videos",
-      "Speaking",
-      "Education Tool",
+      'Literature',
+      'Podcast',
+      'Videos',
+      'Speaking',
+      'Education Tool',
     ],
   },
   {
-    name: "Resources",
+    name: 'Resources',
     subtittle: [
-      "Mental Health",
-      "Addiction",
-      "Crisis",
-      "Literature",
-      "Counselors",
-      "Eating Disorder",
-      "Veteran / First Responder",
-      "Community Services",
+      'Mental Health',
+      'Addiction',
+      'Crisis',
+      'Literature',
+      'Counselors',
+      'Eating Disorder',
+      'Veteran / First Responder',
+      'Community Services',
     ],
   },
   {
-    name: "Get Involved",
+    name: 'Get Involved',
     subtittle: [
-      "Fundraising",
-      "Special Events",
-      "Admin / Marketing",
-      "Creative",
-      "Careers",
-      "Task Force",
+      'Fundraising',
+      'Special Events',
+      'Admin / Marketing',
+      'Creative',
+      'Careers',
+      'Task Force',
     ],
   },
 ];
@@ -71,7 +71,7 @@ const Footer = () => {
                       <ul className="text-left text-lg">
                         {item?.subtittle.map((subtittle, index) => {
                           return (
-                            <li>
+                            <li className="py-0.5">
                               <a
                                 className="text-[#5F5F60] hover:text-[#5F5F60]"
                                 href="#"
